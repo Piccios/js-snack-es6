@@ -1,14 +1,14 @@
 // Snack 1
 
-// const invitati = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello']
+const invitati = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello']
 
-// const tavoloVip = invitati.map((string, index) => ({
-//     tavolo: "TavoloVip",
-//     nome: string,
-//     posto: index + 1,
-// }))
+const tavoloVip = invitati.map((string, index) => ({
+    tavolo: "TavoloVip",
+    nome: string,
+    posto: index + 1,
+}))
 
-// console.log(tavoloVip)
+console.log(tavoloVip)
 
 
 // Snack 2
