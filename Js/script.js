@@ -42,13 +42,24 @@ const students = [
     {
         id: 102,
         name: "Piero della Francesca",
-        scores: 50
+        grades: 50
     },
     {
         id: 120,
         name: "Francesca da Polenta",
-        scores: 84
+        grades: 84
     }
 ]
 
 
+const namePlaque = students.map( student => ({
+    name: student.name.toUpperCase()
+})
+)
+
+
+
+const over70 = students.filter(student => student.grades >= 70)
+
+console.log(over70)
+console.log(namePlaque)
