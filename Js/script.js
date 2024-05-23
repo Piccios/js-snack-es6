@@ -1,57 +1,54 @@
-const tavoloVip = [
+// Snack 1
+
+// const invitati = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello']
+
+// const tavoloVip = invitati.map((string, index) => ({
+//     tavolo: "TavoloVip",
+//     nome: string,
+//     posto: index + 1,
+// }))
+
+// console.log(tavoloVip)
+
+
+// Snack 2
+
+const students = [
     {
-        tavolo: "TavoloVip",
-        nome: 'Brad Pitt',
-        posto: 1
+        id: 213,
+        name: "Giuseppina della Rovere",
+        grades: 78
     },
     {
-        tavolo: "TavoloVip",
-        nome: 'Johny Depp',
-        posto: 2
+        id: 110,
+        name: "Paola Cortellessa",
+        grades: 96
     },
     {
-        tavolo: "TavoloVip",
-        nome: 'Lady Gaga',
-        posto: 3
+        id: 250,
+        name: "Andrea Mantegna",
+        grades: 48
     },
     {
-        tavolo: "TavoloVip",
-        nome: 'Cristiano Ronaldo',
-        posto: 4
+        id: 145,
+        name: "Gaia Borromini",
+        grades: 74
     },
     {
-        tavolo: "TavoloVip",
-        nome: 'Georgina Rodriguez',
-        posto: 5
+        id: 196,
+        name: "Luigi Grimaldello",
+        grades: 68
     },
     {
-        tavolo: "TavoloVip",
-        nome: 'Chiara Ferragni',
-        posto: 6
+        id: 102,
+        name: "Piero della Francesca",
+        scores: 50
     },
     {
-        tavolo: "TavoloVip",
-        nome: 'George Clooney',
-        posto: 7
-    },
-    {
-        tavolo: "TavoloVip",
-        nome: 'Amal Clooney',
-        posto: 8
-    },
-    {
-        tavolo: "TavoloVip",
-        nome: 'Fedez',
-        posto: 9
-    },
-    {
-        tavolo: "TavoloVip",
-        nome: 'Amadeus',
-        posto: 10
-    },
-    {
-        tavolo: "TavoloVip",
-        nome: 'Fiorello',
-        posto: 11
-    },
+        id: 120,
+        name: "Francesca da Polenta",
+        scores: 84
+    }
 ]
+
+
