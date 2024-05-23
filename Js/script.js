@@ -59,7 +59,7 @@ const namePlaque = students.map( student => ({
 
 const over70 = students.filter(student => student.grades >= 70)
 
-const newClass = students.filter(student => (student.grades) && (student.id) >= 120)
+const newClass = students.filter(student => (student.grades) > 70 && (student.id) >= 120)
 
 console.log(over70)
 console.log(namePlaque)
