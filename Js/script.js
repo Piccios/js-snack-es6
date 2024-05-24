@@ -2,9 +2,9 @@
 
 const invitati = [ 'Brad Pitt', 'Johnny Depp', 'Lady Gaga', 'Cristiano Ronaldo', 'Georgina Rodriguez', 'Chiara Ferragni',  'George Clooney', 'Amal Clooney', 'Fedez', 'Amadeus', 'Fiorello']
 
-const tavoloVip = invitati.map((string, index) => ({
+const tavoloVip = invitati.map((guest, index) => ({
     tavolo: "TavoloVip",
-    nome: string,
+    nome: guest,
     posto: index + 1,
 }))
 
