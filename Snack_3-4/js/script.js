@@ -26,3 +26,7 @@ const bikes = [
 ]
 
 // stampare in console la bicicletta con peso minore utilizzando destructuring e template literal
+
+const lightestBike = bikes.reduce((minBike, currentBike) => {
+    return currentBike.weight < minBike.weight ? currentBike : minBike;
+});
