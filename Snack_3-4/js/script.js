@@ -30,3 +30,7 @@ const bikes = [
 const lightestBike = bikes.reduce((minBike, currentBike) => {
     return currentBike.weight < minBike.weight ? currentBike : minBike;
 });
+
+const { name, weight } = lightestBike;
+
+console.log(`The bike with the least weight is ${name} with a weight of ${weight} kg.`);
