@@ -67,8 +67,6 @@ const squadreCalcio = [
     }
 ];
 
-// assegnare dei valori alle proprieta' settate a 0 utilizzare una funzione che assegni i numeri randomicamente
-
 
 /**
  * 
@@ -96,3 +94,14 @@ function assegnaValoriCasuali(squadre) {
 assegnaValoriCasuali(squadreCalcio);
 
 console.log(squadreCalcio);
+
+// set a new array that contains only the name and the penalties
+
+let penalties = squadreCalcio.map(squadra => {
+    return {
+        nome: squadra.nome,
+        falli_subiti: squadra.falliSubiti
+    }
+}); 
+
+console.log(penalties);
