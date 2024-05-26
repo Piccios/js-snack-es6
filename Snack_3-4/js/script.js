@@ -59,6 +59,7 @@ const squadreCalcio = [
         puntiFatti: 0,
         falliSubiti: 0
     },
+
     {
         nome: "Napoli",
         puntiFatti: 0,
@@ -66,4 +67,32 @@ const squadreCalcio = [
     }
 ];
 
-// assegnare dei valori alle proprieta' settate a 0  utilizzare una funzione che assegni i numeri randomicamente
+// assegnare dei valori alle proprieta' settate a 0 utilizzare una funzione che assegni i numeri randomicamente
+
+
+/**
+ * 
+ * @param {*} min 
+ * @param {*} max 
+ * @returns a random number between min and max
+ */
+function getRandomInt (min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+/**
+ * 
+ * @param {*} squadre 
+ * @returns random values to the properties of the object
+ */
+function assegnaValoriCasuali(squadre) {
+    squadre.forEach(squadra => {
+        squadra.puntiFatti = getRandomInt(0, 50); 
+        squadra.falliSubiti = getRandomInt(0, 10); 
+    });
+}
+
+assegnaValoriCasuali(squadreCalcio);
+
+console.log(squadreCalcio);
